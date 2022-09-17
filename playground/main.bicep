@@ -7,7 +7,7 @@ param vmAdminPassword string
 param psk string
 
 // Load VWAN Playground Config file. 
-var vwanConfig = json(loadTextContent('./configs/contoso.json'))
+var vwanConfig = json(loadTextContent('./configs/jigme.json'))
 var location = vwanConfig.defaultLocation
 
 // Load P2S AAD Auth Config file
