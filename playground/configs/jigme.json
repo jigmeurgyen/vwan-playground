@@ -1,12 +1,12 @@
 {
-    "namePrefix": "contoso",
-    "defaultLocation": "westeurope",
+    "namePrefix": "Jigme",
+    "defaultLocation": "australiaeast",
     "sharedServices": {
         "addressPrefix": "192.168.0.0/24"
     },
     "regions": [
         {
-            "location": "westeurope",
+            "location": "australiaeast",
             "hubAddressPrefix": "10.0.0.0/24",
             "deployFw": true,
             "deployVpnGw": true,
@@ -18,43 +18,43 @@
                 ]
             },
             "landingZones": {
-                "name": "weu-lz1",
+                "name": "aue-lz1",
                 "addressPrefix": "10.0.10.0/24"
             }
         },
         {
-            "location": "northeurope",
+            "location": "australiasoutheast",
             "hubAddressPrefix": "10.10.0.0/24",
             "deployFw": false,
             "deployVpnGw": false,
             "deployErGw": false,
             "deployP2SGw": false,
             "landingZones": {
-                "name": "neu-lz1",
+                "name": "ause-lz1",
                 "addressPrefix": "10.10.10.0/24"
             }
         },
         {
-            "location": "eastus",
+            "location": "australiacentral",
             "hubAddressPrefix": "10.20.0.0/24",
             "deployFw": true,
             "deployVpnGw": false,
             "deployErGw": true,
             "deployP2SGw": false,
             "landingZones": {
-                "name": "eus-lz1",
+                "name": "auc-lz1",
                 "addressPrefix": "10.20.10.0/24"
             }
         }
     ],
     "onPremSites": [
         {
-            "location": "westeurope",
+            "location": "australiaeast",
             "addressPrefix": "172.16.0.0/22",
             "deployVM": true
         },
         {
-            "location": "eastus",
+            "location": "australiasoutheast",
             "addressPrefix": "172.16.4.0/22",
             "deployVM": true
         }
